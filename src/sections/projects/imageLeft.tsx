@@ -57,12 +57,12 @@ const ImageLeft = ({
                 endContent={<HiOutlineExternalLink size={24} />}
                 variant="bordered"
               >
-                Ver projeto
+                查看项目
               </Button>
             </Link>
 
             <Tooltip
-              content={<p className="text-tiny">Repositório</p>}
+              content={<p className="text-tiny">存储库</p>}
               delay={0}
               closeDelay={0}
               placement="bottom"

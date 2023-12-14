@@ -2,25 +2,26 @@ import React from "react";
 import { Separator } from "@/components/ui/separator";
 import ImageLeft from "./projects/imageLeft";
 import ImageRight from "./projects/imageRight";
+import DesktopHome from "../../public/desktop_home_dark_02.png";
 
 const ProjectSection = ({ id }: { id: string }) => {
   return (
     <section className="mx-auto w-full max-w-[90%] select-none py-10" id={id}>
       <div className="mx-auto w-full">
         <p className="mb-8 select-none text-3xl font-black text-white">
-          <span className="text-xl text-lime-500">{`. `}</span>Projetos
+          <span className="text-xl text-lime-500">{`. `}</span>项目
         </p>
         <h2 className="text-light px-5 text-sm">
-          Explore uma seleção de projetos que representam minha jornada.
+        探索一系列代表我旅程的项目。
         </h2>
       </div>
       <ImageLeft
-        imageUrl="https://github.com/gui-bus/Gamtech/blob/main/Github/Desktop_Dark/desktop_home_dark_01.png?raw=true"
-        title="Gamtech"
-        subtitle="Elevando sua experiência tecnológica!"
-        description="A Gamtech é um e-commerce de itens para computadores desenvolvido com React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Prisma, Supabase, Stripe e Vercel. O projeto conta com uma gama de itens como teclados, mouses, headphones, placas de vídeo, placas mãe e processadores. Venha encontrar o próximo upgrade do seu setup na Gamtech!"
+        imageUrl={DesktopHome}
+        title="文武科技柜"
+        subtitle="文武科技社的后花园"
+        description="文武科技柜是由WordPress为基础搭建的博客系统，里面主要收录了Web、iOS、Android、Windows、Mac、Nas软件，实用教程，偶尔会发点碎碎念。"
         link="https://gamtech.vercel.app/"
-        linkRepo="https://github.com/gui-bus/Gamtech"
+        linkRepo="#"
         id="Gamtech"
       />
       <Separator className="my-5" />

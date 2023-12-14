@@ -87,7 +87,7 @@ export function Navmenu() {
                 </ListItem>
                 <ListItem
                   href="/#Tech"
-                  title="Tecnologias"
+                  title="技术"
                   className="whitespace-pre-wrap"
                 >
                   Navegue pelas tecnologias que permeiam meu dia a dia.

@@ -5,69 +5,66 @@ import { Tooltip } from "@nextui-org/react";
 import { Separator } from "@/components/ui/separator";
 
 const icons: { name: string; src: string }[] = [
+  
+  // {
+  //   name: "TypeScript",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Typescript.svg",
+  // },
+  // {
+  //   name: "React",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/React.svg",
+  // },
+  // {
+  //   name: "Vite",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Vite.svg",
+  // },
+  // {
+  //   name: "NextJS",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/NextJS.svg",
+  // },
+  // {
+  //   name: "Node.js",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/NodeJS.svg",
+  // },
+  // {
+  //   name: "Prisma",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/PrismaORM.svg",
+  // },
+  // {
+  //   name: "PostgreSQL",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/24f9a20420b3a7c5ba7bd7b629a2f9e1912db0e2/Light/PostgreSQL.svg",
+  // },
+  // {
+  //   name: "Supabase",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Supabase.svg",
+  // },
+  // {
+  //   name: "Firebase",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Firebase.svg",
+  // },
+  // {
+  //   name: "Axios",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/24f9a20420b3a7c5ba7bd7b629a2f9e1912db0e2/Light/Axios.svg",
+  // },
+  // {
+  //   name: "Express.js",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/24f9a20420b3a7c5ba7bd7b629a2f9e1912db0e2/Light/ExpressJS.svg",
+  // },
+  // {
+  //   name: "NextUI",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/NextUI.svg",
+  // },
+  // {
+  //   name: "ShadCN/UI",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/ShadCNUI.svg",
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/TailwindCSS.svg",
+  // },
   {
-    name: "JavaScript",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Javascript.svg",
-  },
-  {
-    name: "TypeScript",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Typescript.svg",
-  },
-  {
-    name: "React",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/React.svg",
-  },
-  {
-    name: "Vite",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Vite.svg",
-  },
-  {
-    name: "NextJS",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/NextJS.svg",
-  },
-  {
-    name: "Node.js",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/NodeJS.svg",
-  },
-  {
-    name: "Prisma",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/PrismaORM.svg",
-  },
-  {
-    name: "PostgreSQL",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/24f9a20420b3a7c5ba7bd7b629a2f9e1912db0e2/Light/PostgreSQL.svg",
-  },
-  {
-    name: "Supabase",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Supabase.svg",
-  },
-  {
-    name: "Firebase",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Firebase.svg",
-  },
-  {
-    name: "Axios",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/24f9a20420b3a7c5ba7bd7b629a2f9e1912db0e2/Light/Axios.svg",
-  },
-  {
-    name: "Express.js",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/24f9a20420b3a7c5ba7bd7b629a2f9e1912db0e2/Light/ExpressJS.svg",
-  },
-  {
-    name: "NextUI",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/NextUI.svg",
-  },
-  {
-    name: "ShadCN/UI",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/ShadCNUI.svg",
-  },
-  {
-    name: "Tailwind CSS",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/TailwindCSS.svg",
-  },
-  {
-    name: "Sass",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Sass.svg",
+    name: "Html",
+    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/HTML.svg",
   },
   {
     name: "Bootstrap",
@@ -78,12 +75,16 @@ const icons: { name: string; src: string }[] = [
     src: "https://raw.githubusercontent.com/gui-bus/TechIcons/24f9a20420b3a7c5ba7bd7b629a2f9e1912db0e2/Light/CSS3.svg",
   },
   {
-    name: "Framer Motion",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Framer%20Motion.svg",
+    name: "JavaScript",
+    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Javascript.svg",
   },
   {
-    name: "Figma",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Figma.svg",
+    name: "Python",
+    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Python.svg",
+  },
+  {
+    name: "Django",
+    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Django.svg",
   },
   {
     name: "Vercel",
@@ -94,29 +95,29 @@ const icons: { name: string; src: string }[] = [
     src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/GIT.svg",
   },
   {
-    name: "React Hook Form",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/React%20Hook%20Form.svg",
+    name: "Vue",
+    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Vue.svg",
   },
   {
-    name: "Stripe",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Stripe.svg",
+    name: "Linux",
+    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Linux.svg",
   },
   {
-    name: "Next Auth",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Next%20Auth.svg",
+    name: "MySQL",
+    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/MySQL.svg",
   },
   {
-    name: "Swiper",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Swiper.svg",
+    name: "Wordpress",
+    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Wordpress.svg",
   },
-  {
-    name: "React Native",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/React%20Native.svg",
-  },
-  {
-    name: "Expo",
-    src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Expo.svg",
-  },
+  // {
+  //   name: "React Native",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/React%20Native.svg",
+  // },
+  // {
+  //   name: "Expo",
+  //   src: "https://raw.githubusercontent.com/gui-bus/TechIcons/0e844255c1b6c18ce6558324e2b0acabeca7725d/Light/Expo.svg",
+  // },
 ];
 
 const TechSection = ({ id }: { id: string }) => {
@@ -125,11 +126,10 @@ const TechSection = ({ id }: { id: string }) => {
       <div className="flex w-full max-w-5xl flex-col items-center justify-center gap-4 px-5 text-black md:absolute">
         <div className="mx-auto w-full">
           <p className="mb-8 select-none text-3xl font-black text-black">
-            <span className="text-xl text-lime-500">{`. `}</span>Tecnologias
+            <span className="text-xl text-lime-500">{`. `}</span>技术
           </p>
           <h2 className="text-light px-5 text-sm">
-            Abaixo está uma lista das tecnologias com as quais ja tive contato e
-            constantemente utilizo em meus projetos pessoais.
+          以下是我接触过并经常在个人项目中使用的技术列表。
           </h2>
           <Separator className="mt-4 opacity-30" />
         </div>

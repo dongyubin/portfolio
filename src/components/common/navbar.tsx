@@ -27,11 +27,11 @@ import { LuMenu } from "react-icons/lu";
 
 const about: { title: string; href: string }[] = [
   {
-    title: "Sobre Mim",
+    title: "阿斌",
     href: "/#About",
   },
   {
-    title: "Tecnologias",
+    title: "技术",
     href: "/#Tech",
   },
   {
