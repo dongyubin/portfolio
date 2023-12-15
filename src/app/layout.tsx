@@ -27,6 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-CN" suppressHydrationWarning className={poppins.className}>
+      <meta name="google-site-verification" content="r3PADZr3-uDSLp-RCbOG6fyR7HHK-U5Iob2OYLbnAOA" />
       <head />
       <body className="bg-black text-white">
         <ThemeProvider
