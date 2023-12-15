@@ -19,14 +19,14 @@ import Code from "../../../public/code.webp";
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Gamtech",
-    href: "/#Gamtech",
-    description: "A Gamtech é um e-commerce de hardware para computadores.",
+    title: "文武科技柜",
+    href: "/#wwkjg",
+    description: "文武科技柜是一个拥有各平台软件、教程的平台.",
   },
   {
-    title: "Hotefy",
-    href: "/#Hotefy",
-    description: "A Hotefy é uma plataforma de reserva de viagens incríveis.",
+    title: "文武科技社",
+    href: "/#wwkjs,
+    description: "文武科技社是一个拥有黑苹果教程、软件测试的纯静态个人博客.",
   },
   {
     title: "DriveX",
@@ -66,7 +66,7 @@ export function Navmenu() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="bg-transparent">
-            Sobre
+          关于
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="flex flex-row-reverse items-center justify-between gap-4 p-4 md:w-[400px] lg:w-[500px]">
@@ -80,24 +80,24 @@ export function Navmenu() {
               <div className="flex w-2/3 flex-col text-center">
                 <ListItem
                   href="/#About"
-                  title="Sobre Mim"
+                  title="阿斌"
                   className="whitespace-pre-wrap"
                 >
-                  Descubra mais sobre a pessoa que está por trás dos códigos.
+                  了解更多关于代码背后的人的信息。.
                 </ListItem>
                 <ListItem
                   href="/#Tech"
                   title="技术"
                   className="whitespace-pre-wrap"
                 >
-                  Navegue pelas tecnologias que permeiam meu dia a dia.
+                  浏览渗透到我日常生活中的技术.
                 </ListItem>
                 <ListItem
                   href="/#Projects"
-                  title="Projetos"
+                  title="项目"
                   className="whitespace-pre-wrap"
                 >
-                  Explore uma seleção de projetos que representam minha jornada.
+                  探索代表我旅程的精选项目.
                 </ListItem>
               </div>
             </ul>
@@ -126,7 +126,7 @@ export function Navmenu() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="bg-transparent">
-            Landing Pages
+          登录页
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
