@@ -8,7 +8,7 @@ import { FaMailBulk } from "react-icons/fa";
 
 import { Tooltip } from "@nextui-org/react";
 import Image from "next/image";
-import bg from '../../public/bg.jpg';
+import bg from '../../public/bg.webp';
 
 const tel = "12981847553";
 
