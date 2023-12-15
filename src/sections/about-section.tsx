@@ -26,7 +26,7 @@ const AboutSection = ({ id }: { id: string }) => {
   return (
     <section className="mx-auto w-full max-w-[90%] select-none py-10" id={id}>
       <p className="mb-8 select-none text-3xl font-black text-white">
-        <span className="text-xl text-lime-500">{`. `}</span>阿斌 / 斌仔
+        <span className="text-xl text-lime-500">{`. `}</span>个人介绍
       </p>
 
       <div className="mx-auto mt-10 flex w-full max-w-5xl flex-col items-center justify-center px-5 md:mt-0">

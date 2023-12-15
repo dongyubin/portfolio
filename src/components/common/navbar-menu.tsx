@@ -83,7 +83,7 @@ export function Navmenu() {
                   title="阿斌"
                   className="whitespace-pre-wrap"
                 >
-                  了解更多关于代码背后的人的信息。.
+                  了解更多关于代码背后的人的信息.
                 </ListItem>
                 <ListItem
                   href="/#Tech"
