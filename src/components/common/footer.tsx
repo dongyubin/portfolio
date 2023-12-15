@@ -72,7 +72,7 @@ export default function Footer() {
         </Link>
 
         <p className="text-xs font-light">
-          &copy; {currentYear} 
+          &copy; {currentYear}
         </p>
 
         <div className="flex gap-1">
