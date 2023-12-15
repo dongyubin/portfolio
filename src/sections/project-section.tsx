@@ -3,10 +3,6 @@ import { Separator } from "@/components/ui/separator";
 import ImageLeft from "./projects/imageLeft";
 import ImageRight from "./projects/imageRight";
 
-const desktopHome = {
-  blogSrc: '../../public/desktop_home_dark_02.png',
-};
-
 const ProjectSection = ({ id }: { id: string }) => {
   return (
     <section className="mx-auto w-full max-w-[90%] select-none py-10" id={id}>
@@ -19,7 +15,7 @@ const ProjectSection = ({ id }: { id: string }) => {
         </h2>
       </div>
       <ImageLeft
-        imageUrl={desktopHome.blogSrc}
+        imageUrl={'../../public/desktop_home_dark_02.png'}
         title="文武科技柜"
         subtitle="文武科技社的后花园"
         description="文武科技柜是由WordPress为基础搭建的博客系统。主要收录内容：各平台软件（Web、iOS、Android、Windows、Mac、Nas）、实用教程、偶尔会发点碎碎念。"
