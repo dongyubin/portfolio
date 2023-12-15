@@ -25,7 +25,7 @@ const components: { title: string; href: string; description: string }[] = [
   },
   {
     title: "文武科技社",
-    href: "/#wwkjs,
+    href: "/#wwkjs",
     description: "文武科技社是一个拥有黑苹果教程、软件测试的纯静态个人博客.",
   },
   {
