@@ -35,31 +35,35 @@ const about: { title: string; href: string }[] = [
     href: "/#Tech",
   },
   {
-    title: "Projetos",
+    title: "项目",
     href: "/#Projects",
   },
 ];
 
 const system: { title: string; href: string }[] = [
   {
-    title: "Gamtech",
-    href: "/#Gamtech",
+    title: "文武科技柜",
+    href: "/#wwkjg",
   },
   {
-    title: "Hotefy",
-    href: "/#Hotefy",
+    title: "文武科技社",
+    href: "/#wwkjs",
   },
   {
-    title: "DriveX",
-    href: "/#DriveX",
+    title: "文武科技资源",
+    href: "/#wwkjzy",
   },
   {
-    title: "Cinedex",
-    href: "/#Cinedex",
+    title: "文武微信排版",
+    href: "/#wwwxpb",
   },
   {
-    title: "O Pedal Café",
-    href: "/#oPedalCafe",
+    title: "豆瓣已看电影展示",
+    href: "/#douban",
+  },
+  {
+    title: "网上学科",
+    href: "/#kxsw",
   },
 ];
 
@@ -113,7 +117,7 @@ export default function Header() {
                     <Link href="#">
                       <p className="select-none text-2xl font-black text-white">
                         <span className="text-xl text-lime-500">{`. `}</span>
-                        Guibus
+                        文武科技社
                       </p>
                     </Link>
                   </SheetTitle>
@@ -122,7 +126,7 @@ export default function Header() {
                       <AccordionItem
                         key="1"
                         aria-label="Accordion 1"
-                        title="Sobre"
+                        title="关于"
                       >
                         <div className="flex w-full flex-col items-center justify-center">
                           {about.map((aboutButton, index) => (
@@ -139,7 +143,7 @@ export default function Header() {
                       <AccordionItem
                         key="2"
                         aria-label="Accordion 2"
-                        title="Sistemas"
+                        title="系统"
                       >
                         <div className="flex w-full flex-col items-center justify-center">
                           {system.map((systemButton, index) => (
@@ -153,7 +157,7 @@ export default function Header() {
                           ))}
                         </div>
                       </AccordionItem>
-                      <AccordionItem
+                      {/* <AccordionItem
                         key="3"
                         aria-label="Accordion 3"
                         title="Landing Pages"
@@ -167,7 +171,7 @@ export default function Header() {
                             </Link>
                           </SheetClose>
                         ))}
-                      </AccordionItem>
+                      </AccordionItem> */}
                     </Accordion>
 
                     <Link href="/#Contact" className="mt-2 w-full px-2">
