@@ -42,6 +42,7 @@ export default function RootLayout({
           </UIProvider>
         </ThemeProvider>
       </body>
+      <script async src="https://font.wangdu.site/script.js" data-website-id="e90d63d0-9a0d-44bf-adac-101b8e591ddc"></script>
     </html>
   );
 }
