@@ -8,6 +8,7 @@ import {
   FaLinkedinIn,
   FaBehance,
   FaWhatsapp,
+  FaBlog 
 } from "react-icons/fa6";
 import { FaMailBulk } from "react-icons/fa";
 
@@ -18,32 +19,47 @@ export default function Footer() {
 
   const icons: { title: string; href: string; icon: ReactNode }[] = [
     {
-      title: "LinkedIn",
-      href: "https://www.linkedin.com/in/gui-bus/",
-      icon: <FaLinkedinIn size={20} />,
+      title: "Blog",
+      href: "https://www.wangdu.site/",
+      icon: <FaBlog size={20} />,
     },
     {
       title: "Github",
-      href: "https://github.com/gui-bus",
+      href: "https://github.com/dongyubin",
       icon: <FaGithub size={20} />,
     },
     {
-      title: "Behance",
-      href: "https://www.behance.net/gui-bus",
-      icon: <FaBehance size={20} />,
-    },
-    {
       title: "E-mail",
-      href: "mailto:guibus.dev@gmail.com",
+      href: "mailto:892457803@qq.com",
       icon: <FaMailBulk size={20} />,
     },
-    {
-      title: "WhatsApp",
-      href: `https://wa.me/${tel}?text=${encodeURI(
-        "Olá, vim do seu portfólio e gostaria de tirar uma dúvida.",
-      )}`,
-      icon: <FaWhatsapp size={20} />,
-    },
+    // {
+    //   title: "LinkedIn",
+    //   href: "https://www.linkedin.com/in/gui-bus/",
+    //   icon: <FaLinkedinIn size={20} />,
+    // },
+    // {
+    //   title: "Github",
+    //   href: "https://github.com/gui-bus",
+    //   icon: <FaGithub size={20} />,
+    // },
+    // {
+    //   title: "Behance",
+    //   href: "https://www.behance.net/gui-bus",
+    //   icon: <FaBehance size={20} />,
+    // },
+    // {
+    //   title: "E-mail",
+    //   href: "mailto:guibus.dev@gmail.com",
+    //   icon: <FaMailBulk size={20} />,
+    // },
+    // {
+    //   title: "WhatsApp",
+    //   href: `https://wa.me/${tel}?text=${encodeURI(
+    //     "Olá, vim do seu portfólio e gostaria de tirar uma dúvida.",
+    //   )}`,
+    //   icon: <FaWhatsapp size={20} />,
+    // },
   ];
 
   return (
@@ -51,13 +67,12 @@ export default function Footer() {
       <section className="mx-auto flex w-full max-w-4xl flex-col items-center justify-between gap-y-4 px-4 pb-8 shadow-xl md:flex-row md:gap-y-0">
         <Link href="/#">
           <p className="select-none text-2xl font-black text-white">
-            <span className="text-xl text-lime-500">{`. `}</span>Guibus
+            <span className="text-xl text-lime-500">{`. `}</span>文武科技社
           </p>
         </Link>
 
         <p className="text-xs font-light">
-          &copy; {currentYear} Portfólio Guilherme Bustamante - Todos os
-          direitos reservados.
+          &copy; {currentYear} 
         </p>
 
         <div className="flex gap-1">

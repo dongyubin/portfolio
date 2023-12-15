@@ -85,7 +85,7 @@ export default function Header() {
           <NavbarBrand>
             <Link href="#">
               <p className="select-none text-2xl font-black text-white">
-                <span className="text-xl text-lime-500">{`. `}</span>Guibus
+                <span className="text-xl text-lime-500">{`. `}</span>文武科技社
               </p>
             </Link>
           </NavbarBrand>
@@ -172,7 +172,7 @@ export default function Header() {
 
                     <Link href="/#Contact" className="mt-2 w-full px-2">
                       <Button className="mb-2 w-full transition-all duration-300 ease-in-out hover:text-lime-400">
-                        Contato
+                        联系
                       </Button>
                     </Link>
                   </SheetDescription>
