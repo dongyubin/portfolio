@@ -6,7 +6,7 @@ import { LuGithub } from "react-icons/lu";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
 interface ImageLeftProps {
-  imageUrl: string;
+  imageUrl: string | StaticImageData;
   title: string;
   subtitle: string;
   description: string;
