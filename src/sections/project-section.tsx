@@ -2,7 +2,10 @@ import React from "react";
 import { Separator } from "@/components/ui/separator";
 import ImageLeft from "./projects/imageLeft";
 import ImageRight from "./projects/imageRight";
-import DesktopHome from "../../public/desktop_home_dark_02.png";
+
+const desktopHome = {
+  blogSrc: '../../public/desktop_home_dark_02.png',
+};
 
 const ProjectSection = ({ id }: { id: string }) => {
   return (
@@ -16,21 +19,21 @@ const ProjectSection = ({ id }: { id: string }) => {
         </h2>
       </div>
       <ImageLeft
-        imageUrl={DesktopHome}
+        imageUrl={desktopHome.blogSrc}
         title="文武科技柜"
         subtitle="文武科技社的后花园"
-        description="文武科技柜是由WordPress为基础搭建的博客系统，里面主要收录了Web、iOS、Android、Windows、Mac、Nas软件，实用教程，偶尔会发点碎碎念。"
-        link="https://gamtech.vercel.app/"
+        description="文武科技柜是由WordPress为基础搭建的博客系统。主要收录内容：各平台软件（Web、iOS、Android、Windows、Mac、Nas）、实用教程、偶尔会发点碎碎念。"
+        link="https://www.wangdu.site/"
         linkRepo="#"
         id="Gamtech"
       />
       <Separator className="my-5" />
       <ImageRight
         imageUrl="https://github.com/gui-bus/Hotefy/blob/main/github/desktop/desktop_home_dark.png?raw=true"
-        title="Hotefy"
-        subtitle="O seu portal para viagens inesquecíveis!"
-        description="O Hotefy é uma plataforma de reservas de viagens desenvolvido com React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Prisma, Supabase e Vercel. O projeto conta com opçoes de viagens para todos os gostos, venha encontrar o refúgio perfeito e realizar os seus sonhos!"
-        link="https://hotefy.vercel.app/"
+        title="文武科技社"
+        subtitle="一个有科技感的个人博客"
+        description="文武科技社是由 Hexo+Butterfly 主题构建，运行在 Vercel，也算是我的第二个个人博客。主要收录内容：黑苹果安装、资源分享、软件测试教学"
+        link="https://blog.wangdu.site/"
         linkRepo="https://github.com/gui-bus/Hotefy"
         id="Hotefy"
       />
