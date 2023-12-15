@@ -2,7 +2,8 @@ import React from "react";
 import { Separator } from "@/components/ui/separator";
 import ImageLeft from "./projects/imageLeft";
 import ImageRight from "./projects/imageRight";
-import desktopHome from '../../public/desktop_home_dark_02.png';
+import desktopHome from '../../public/desktop_home_dark_01.png';
+import desktopHomeDark from '../../public/desktop_home_dark.png';
 
 const ProjectSection = ({ id }: { id: string }) => {
   return (
@@ -26,12 +27,12 @@ const ProjectSection = ({ id }: { id: string }) => {
       />
       <Separator className="my-5" />
       <ImageRight
-        imageUrl="https://github.com/gui-bus/Hotefy/blob/main/github/desktop/desktop_home_dark.png?raw=true"
+        imageUrl={desktopHomeDark}
         title="文武科技社"
         subtitle="一个有科技感的个人博客"
         description="文武科技社是由 Hexo+Butterfly 主题构建，运行在 Vercel，也算是我的第二个个人博客。主要收录内容：黑苹果安装、资源分享、软件测试教学"
         link="https://blog.wangdu.site/"
-        linkRepo="https://github.com/gui-bus/Hotefy"
+        linkRepo="#"
         id="Hotefy"
       />
       <Separator className="my-5" />
