@@ -17,7 +17,7 @@ export default function Footer() {
 
   const tel = "12981847553";
 
-  const icons: { title: string; href: string; icon: ReactNode }[] = [
+  const ns: { title: string; href: string; icon: ReactNode }[] = [
     {
       title: "Blog",
       href: "https://www.wangdu.site/",
