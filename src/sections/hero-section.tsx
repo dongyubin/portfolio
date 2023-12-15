@@ -7,6 +7,8 @@ import { FaBehance, FaLinkedinIn, FaGithub, FaWhatsapp, FaInstagram,FaBlog } fro
 import { FaMailBulk } from "react-icons/fa";
 
 import { Tooltip } from "@nextui-org/react";
+import Image from "next/image";
+import bg from '../../public/bg.jpg';
 
 const tel = "12981847553";
 
@@ -57,6 +59,15 @@ const HeroSection = ({ id }: { id: string }) => {
       {/* <video autoPlay muted loop className="pt-10 sm:pt-0">
         <source src="/videos/tech.mp4" type="video/mp4"></source>
       </video> */}
+      <Image
+          src={bg}
+          alt='背景'
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="pt-10 sm:pt-0"
+          draggable={false}
+        />
 
       <div className="mt-10 flex items-center justify-center sm:inset-0 sm:mt-0 md:absolute">
         <div className="flex h-full w-full flex-col items-center justify-center">
