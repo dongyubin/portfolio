@@ -4,7 +4,9 @@ import ImageLeft from "./projects/imageLeft";
 import ImageRight from "./projects/imageRight";
 import wwkjg from '../../public/wwkjg.png';
 import wwkjs from '../../public/wwkjs.png';
-import wwkjzy from '../../public/wwkjzy.png'
+import wwkjzy from '../../public/wwkjzy.png';
+import wwwxpb from '../../public/wwwxpb.png';
+import douban from '../../public/douban.png';
 
 const ProjectSection = ({ id }: { id: string }) => {
   return (
@@ -31,7 +33,7 @@ const ProjectSection = ({ id }: { id: string }) => {
         imageUrl={wwkjs}
         title="文武科技社"
         subtitle="一个有科技感的个人博客"
-        description="文武科技社是由 Hexo+Butterfly 主题构建，运行在 Vercel，也算是我的第二个个人博客。主要收录内容：黑苹果安装、资源分享、软件测试教学"
+        description="文武科技社是由 Hexo+Butterfly 主题构建，运行在 Vercel，也算是我的第二个个人博客。主要收录内容：黑苹果安装、资源分享、软件测试教学。"
         link="https://blog.wangdu.site/"
         linkRepo="#"
         id="wwkjs"
@@ -41,30 +43,30 @@ const ProjectSection = ({ id }: { id: string }) => {
         imageUrl={wwkjzy}
         title="文武科技资源"
         subtitle="一个虚拟产品发卡平台"
-        description="文武科技资源是由 独角数卡 构建。主要售卖内容：苹果软件、ChatGPT账号、黑苹果资源、软件资源...支付方式：微信、支付宝"
+        description="文武科技资源是由 独角数卡 构建。主要售卖内容：苹果软件、ChatGPT账号、黑苹果资源、软件资源...支付方式：微信、支付宝。"
         link="https://fk.wwkejishe.top/"
         linkRepo="#"
         id="wwkjzy"
       />
       <Separator className="my-5" />
       <ImageRight
-        imageUrl="https://github.com/gui-bus/Cinedex/blob/main/github/desktop_home_light.png?raw=true"
-        title="Cinedex"
-        subtitle="Seu catálogo definitivo de filmes e series!"
-        description="A Cinedex é uma plataforma online de catálogo de filmes, desenvolvido com React, Typescript, Next.js, NextUI, Tailwind CSS e Vercel. O projeto conta com uma ampla gama de opções de filmes separados por categorias e gêneros para explorar!"
-        link="https://cinedex.vercel.app/discover/now_playing"
-        linkRepo="https://github.com/gui-bus/Cinedex"
-        id="Cinedex"
+        imageUrl={wwwxpb}
+        title="文武微信排版"
+        subtitle="一个基于 mdnice 二开的微信排版工具"
+        description="文武微信排版是在 mdnice 的基础上，增加了文字时间统计、链接转二维码和加粗Plus等功能。"
+        link="https://md.wangdu.site/"
+        linkRepo="https://www.wangdu.site/software/tools/1281.html"
+        id="wwwxpb"
       />
       <Separator className="my-5" />
       <ImageLeft
-        imageUrl="https://github.com/gui-bus/oPedalCafe/blob/main/github/desktop_login.png?raw=true"
-        title="O Pedal Café"
-        subtitle="Gerenciamento eficiente para o seu negócio!"
-        description="O projeto do Pedal Café é um sistema completo com Frontend, Backend e Mobile de administração de pedidos de uma cafeteria. O projeto conta com diversas funcionalidades para facilitar a administração e execução dos pedidos, proporcionando um gerenciamento de produtos e pedidos de uma forma poderosa e eficiente!"
-        link="https://o-pedal-cafe.vercel.app/"
-        linkRepo="https://github.com/gui-bus/oPedalCafe"
-        id="oPedalCafe"
+        imageUrl={douban}
+        title="豆瓣已看电影展示"
+        subtitle="使用了 豆瓣书影音同步 GitHub Action 来抓取的 JSON 数据，用于博客展示"
+        description="豆瓣已看电影展示主要是基于 GitHub Action 来抓取的 JSON 数据，并将图片爬取下来，以防失效。（已稳定运行 6 个月）"
+        link="https://dban.vercel.app/"
+        linkRepo="https://github.com/dongyubin/douban"
+        id="douban"
       />
        <Separator className="my-5" />
       <ImageRight
