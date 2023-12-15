@@ -29,20 +29,20 @@ const components: { title: string; href: string; description: string }[] = [
     description: "文武科技社是一个拥有黑苹果教程、软件测试的纯静态个人博客.",
   },
   {
-    title: "DriveX",
-    href: "/#DriveX",
-    description: "A DriveX é um sistema web de compra e venda de veículos.",
+    title: "文武科技资源",
+    href: "/#wwkjzy",
+    description: "一个虚拟产品发卡平台.",
   },
   {
-    title: "Cinedex",
-    href: "/#Cinedex",
+    title: "文武微信排版",
+    href: "/#wwwxpb",
     description:
-      "A Cinedex é um catálogo de informaçoes sobre filmes e séries.",
+      "一个基于 mdnice 二开的微信排版工具.",
   },
   {
-    title: "O Pedal Café",
-    href: "/#oPedalCafe",
-    description: "O Pedal Café é um sistema de administração de pedidos.",
+    title: "豆瓣已看电影展示",
+    href: "/#douban",
+    description: "使用 GitHub Action 来抓取豆瓣已看数据.",
   },
 ];
 
