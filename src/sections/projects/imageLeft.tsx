@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { LuGithub } from "react-icons/lu";
 import { HiOutlineExternalLink } from "react-icons/hi";
+import { StaticImageData } from "next/image";
 
 interface ImageLeftProps {
   imageUrl: string | StaticImageData;
