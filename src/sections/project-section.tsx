@@ -3,10 +3,11 @@ import { Separator } from "@/components/ui/separator";
 import ImageLeft from "./projects/imageLeft";
 import ImageRight from "./projects/imageRight";
 import wwkjg from '../../public/wwkjg.png';
-import wwkjs from '../../public/wwkjs.png';
+import wwkjs from '../../public/wwkjs.webp';
 import wwkjzy from '../../public/wwkjzy.png';
 import wwwxpb from '../../public/wwwxpb.png';
-import douban from '../../public/douban.png';
+import douban from '../../public/douban.webp';
+import kxsw from '../../public/kxsw.png';
 
 const ProjectSection = ({ id }: { id: string }) => {
   return (
@@ -25,7 +26,7 @@ const ProjectSection = ({ id }: { id: string }) => {
         subtitle="文武科技社的后花园"
         description="文武科技柜是由WordPress为基础搭建的博客系统。主要收录内容：各平台软件（Web、iOS、Android、Windows、Mac、Nas）、实用教程、偶尔会发点碎碎念。"
         link="https://www.wangdu.site/"
-        linkRepo="#"
+        linkRepo="https://www.wangdu.site/"
         id="wwkjg"
       />
       <Separator className="my-5" />
@@ -35,7 +36,7 @@ const ProjectSection = ({ id }: { id: string }) => {
         subtitle="一个有科技感的个人博客"
         description="文武科技社是由 Hexo+Butterfly 主题构建，运行在 Vercel，也算是我的第二个个人博客。主要收录内容：黑苹果安装、资源分享、软件测试教学。"
         link="https://blog.wangdu.site/"
-        linkRepo="#"
+        linkRepo="https://blog.wangdu.site/"
         id="wwkjs"
       />
       <Separator className="my-5" />
@@ -45,7 +46,7 @@ const ProjectSection = ({ id }: { id: string }) => {
         subtitle="一个虚拟产品发卡平台"
         description="文武科技资源是由 独角数卡 构建。主要售卖内容：苹果软件、ChatGPT账号、黑苹果资源、软件资源...支付方式：微信、支付宝。"
         link="https://fk.wwkejishe.top/"
-        linkRepo="#"
+        linkRepo="https://fk.wwkejishe.top/"
         id="wwkjzy"
       />
       <Separator className="my-5" />
@@ -70,13 +71,13 @@ const ProjectSection = ({ id }: { id: string }) => {
       />
        <Separator className="my-5" />
       <ImageRight
-        imageUrl="https://github.com/gui-bus/Geoway/blob/main/Github/desktop_7.png?raw=true"
-        title="Geoway"
-        subtitle="Mapeando aventuras!"
-        description="A Geoway é uma Landing Page para um app fictício de rotas para trilhas e viagens desenvolvido com React, Typescript, Next.js, ShadCN/UI, Tailwind CSS e Vercel. O projeto conta com diversas informações sobre o aplicativo, como seu funcionamento e funcionalidades."
-        link="https://geoway.vercel.app/"
-        linkRepo="https://github.com/gui-bus/Geoway"
-        id="Geoway"
+        imageUrl={kxsw}
+        title="网上学科"
+        subtitle="一个教人如何上网的仓库"
+        description="网上学科主要收录一些上网软件和J场。"
+        link="https://github.com/dongyubin/Free-AppleId-Serve"
+        linkRepo="https://github.com/dongyubin/Free-AppleId-Serve"
+        id="kxsw"
       />
     </section>
   );

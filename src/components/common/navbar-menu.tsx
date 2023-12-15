@@ -44,14 +44,19 @@ const components: { title: string; href: string; description: string }[] = [
     href: "/#douban",
     description: "使用 GitHub Action 来抓取豆瓣已看数据.",
   },
+  {
+    title: "网上学科",
+    href: "/#kxsw",
+    description: "一个教人如何上网的仓库.",
+  },
 ];
 
 const landings: { title: string; href: string; description: string }[] = [
-  // {
-  //   title: "Thiago Mecânico",
-  //   href: "/#Thiago-mecanico",
-  //   description: "Landing Page para um instrutor e mecânico de bicicletas.",
-  // },
+  {
+    title: "Thiago Mecânico",
+    href: "/#Thiago-mecanico",
+    description: "Landing Page para um instrutor e mecânico de bicicletas.",
+  },
   {
     title: "Geoway",
     href: "/#Geoway",
@@ -124,7 +129,7 @@ export function Navmenu() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        {/* <NavigationMenuItem>
           <NavigationMenuTrigger className="bg-transparent">
           登录页
           </NavigationMenuTrigger>
@@ -144,7 +149,7 @@ export function Navmenu() {
               ))}
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem>
+        </NavigationMenuItem> */}
         <NavigationMenuItem>
           <Link href="/#Contact" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
