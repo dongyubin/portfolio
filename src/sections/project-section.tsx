@@ -2,8 +2,9 @@ import React from "react";
 import { Separator } from "@/components/ui/separator";
 import ImageLeft from "./projects/imageLeft";
 import ImageRight from "./projects/imageRight";
-import desktopHome from '../../public/desktop_home_dark_01.png';
-import desktopHomeDark from '../../public/desktop_home_dark.png';
+import wwkjg from '../../public/wwkjg.png';
+import wwkjs from '../../public/wwkjs.png';
+import wwkjzy from '../../public/wwkjzy.png'
 
 const ProjectSection = ({ id }: { id: string }) => {
   return (
@@ -17,7 +18,7 @@ const ProjectSection = ({ id }: { id: string }) => {
         </h2>
       </div>
       <ImageLeft
-        imageUrl={desktopHome}
+        imageUrl={wwkjg}
         title="文武科技柜"
         subtitle="文武科技社的后花园"
         description="文武科技柜是由WordPress为基础搭建的博客系统。主要收录内容：各平台软件（Web、iOS、Android、Windows、Mac、Nas）、实用教程、偶尔会发点碎碎念。"
@@ -27,7 +28,7 @@ const ProjectSection = ({ id }: { id: string }) => {
       />
       <Separator className="my-5" />
       <ImageRight
-        imageUrl={desktopHomeDark}
+        imageUrl={wwkjs}
         title="文武科技社"
         subtitle="一个有科技感的个人博客"
         description="文武科技社是由 Hexo+Butterfly 主题构建，运行在 Vercel，也算是我的第二个个人博客。主要收录内容：黑苹果安装、资源分享、软件测试教学"
@@ -37,13 +38,13 @@ const ProjectSection = ({ id }: { id: string }) => {
       />
       <Separator className="my-5" />
       <ImageLeft
-        imageUrl="https://github.com/gui-bus/Drivex/blob/main/Github/DriveX/Images/MacbookAir-1.png?raw=true"
-        title="DriveX"
-        subtitle="Experiência automotiva em um novo patamar!"
-        description="A DriveX é uma página web de compra e venda de veículos desenvolvido com Vite, React, TypeScript, Firebase e Tailwind CSS. O projeto conta com um sistema de autenticação com Firebase para gerenciar o login e registro de usuários, bem como um banco de dados Firestore para armazenar informações sobre veículos e usuários. Além disso, o projeto oferece a possibilidade de entrar em contato com os vendedores via WhatsApp."
-        link="https://drivex-cars.vercel.app/"
-        linkRepo="https://github.com/gui-bus/DriveX"
-        id="DriveX"
+        imageUrl={wwkjzy}
+        title="文武科技资源"
+        subtitle="一个虚拟产品发卡平台"
+        description="文武科技资源是由 独角数卡 构建。主要售卖内容：苹果软件、ChatGPT账号、黑苹果资源、软件资源...支付方式：微信、支付宝"
+        link="https://fk.wwkejishe.top/"
+        linkRepo="#"
+        id="wwkjzy"
       />
       <Separator className="my-5" />
       <ImageRight
